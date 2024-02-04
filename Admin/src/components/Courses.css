@@ -1,0 +1,48 @@
+/* src/components/Courses.css */
+.courses-list{
+  margin-top: 50px;
+
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+.card {
+    background-color: rgb(112, 224, 249);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    max-width: 90vw;
+    height: 300px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .card p{
+    text-justify: auto;
+    text-align: justify;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .course-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .course-image {
+    width: 100% !important;
+    max-height: 300px !important;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  

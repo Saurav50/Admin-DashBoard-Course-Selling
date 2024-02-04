@@ -1,0 +1,40 @@
+.appbar-container {
+  /* background-color: gray; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  z-index: 1000;
+  top: 0;
+  position: fixed;
+  padding-top: 10px;
+  padding-right: 100px !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid lightgray;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+}
+
+.appbar-left {
+  margin-left: 10px;
+}
+
+.appbar-right {
+  display: flex;
+  margin-right: 0.7rem;
+}
+
+.appbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.appbar-button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.appbar-button:hover {
+  color: darkblue;
+  cursor: pointer;
+}

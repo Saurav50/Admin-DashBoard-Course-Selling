@@ -1,0 +1,46 @@
+/* LandingPage.css */
+.landing-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.landing-page-image {
+  width: 35%;
+  height: 45%; /* Adjust the image size as needed */
+  margin-right: 20px; /* Add some spacing between the image and content */
+}
+
+.landing-page-content {
+  text-align: left;
+}
+
+/* Assuming this is your CSS file (e.g., Login.css) */
+
+.login-link {
+  text-decoration: none;
+}
+
+.Login {
+  /* Add your desired styles for the login container */
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  color: #333;
+  /* display: inline-block; */
+  cursor: pointer;
+}
+
+.Login img:hover {
+  background-color: #ddd;
+}
+
+/* Add any additional styles for the arrow image if needed */
+.Login img {
+  margin-left: 15px;
+  transition: background-color 0.3s ease;
+  align-self: auto;
+  border-radius: 100%;
+}
