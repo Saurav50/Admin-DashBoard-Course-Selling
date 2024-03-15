@@ -16,7 +16,7 @@ const CourseDetail = () => {
 
   useEffect(() => {
     // Fetch the particular course based on courseId
-    const apiUrl = `http://localhost:3000/course/${courseId}`;
+    const apiUrl = `http://localhost:3000/admin/course/${courseId}`;
 
     fetch(apiUrl, {
       method: "GET",
